@@ -1,0 +1,18 @@
+{
+  "description": "Test plugin to find top process memory",
+  "command": "boundary-meter --lua index.lua",
+  "icon": "icon.png",
+  "metrics": [
+    "BOUNDARY_TEST_TOP_PROCESS_MEMORY"
+  ],
+  "paramSchema": [
+    {
+      "title": "Source",
+      "name": "source",
+      "description": "Source to be used for the measurement",
+      "type": "string",
+      "default": "",
+      "required": false
+    }
+  ]
+}

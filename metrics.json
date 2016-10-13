@@ -1,0 +1,11 @@
+{
+   "BOUNDARY_TEST_TOP_PROCESS_MEMORY": {
+        "defaultAggregate": "avg",
+        "defaultResolutionMS": 1000,
+        "description": "Example metric for the test top process MEMORY Boundary meter plugin",
+        "displayName": "Test Top Process Memory %",
+        "displayNameShort": "test Top Process Memory %",
+        "isDisabled": 0,
+        "unit": "percent"
+    }
+}
